@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python3 main.py --gpu 0 --way 5 --test_way 5 --shot 5 --exp cpea-main-5way-5shot-mod > cpea-main-5way-5shot-mod_clip.txt &
+CUDA_VISIBLE_DEVICES=0 python3 main.py --gpu 0 --way 5 --test_way 5 --shot 1 --exp cpea-main-5way-1shot-mod > cpea-main-5way-1shot-mod_clip.txt &
